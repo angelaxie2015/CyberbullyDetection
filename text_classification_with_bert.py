@@ -104,7 +104,7 @@ You may restore the saved model like this:
 import pytorch_lightning as pl
 from omegaconf import DictConfig, OmegaConf
 
-from nemo.collections.nlp.models.text_classification import TextClassificationModel
+from nemo_text_processing.collections.nlp.models.text_classification import TextClassificationModel
 from nemo.collections.nlp.parts.nlp_overrides import NLPDDPStrategy
 from nemo.core.config import hydra_runner
 from nemo.utils import logging
